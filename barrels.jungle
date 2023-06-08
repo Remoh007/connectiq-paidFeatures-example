@@ -1,0 +1,5 @@
+# Do not hand edit this file. To make changes run the 
+# "Configure Monkey Barrels" command.
+
+PaidFeatures = [c:\coding\garmin\projects\barrels\connectiq-paidFeatures-barrel\monkey.jungle]
+base.barrelPath = $(base.barrelPath);$(PaidFeatures)
