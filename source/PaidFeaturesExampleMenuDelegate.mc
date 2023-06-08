@@ -28,6 +28,10 @@ class PaidFeaturesExampleMenuDelegate extends WatchUi.MenuInputDelegate {
             System.println("Deleting all codes and lock all features");
             var featureManager = Application.getApp().featureManager;
             featureManager.cleanAllCodes();
+        } else if (item == :emailFeature) {
+            System.println("This feature is bound to a specific email");
+        } else if (item == :deviceFeature) {
+            System.println("This feature is bound to a specific device");
         } 
     }
 

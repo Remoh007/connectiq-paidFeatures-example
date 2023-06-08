@@ -13,6 +13,14 @@ class PaidFeaturesExampleMainMenu extends WatchUi.Menu {
         if (Application.getApp().featureManager.isUnlocked("Hidden Feature")) {
             addItem($.Rez.Strings.menu_label_3, :item3);
         }
+        // If you called your Manager instance featureManager, you can use this shortcut
+        if (PaidFeatures.isUnlocked("Device bound Feature")) {
+            addItem($.Rez.Strings.menu_label_device_feature, :deviceFeature);
+        }
+        // If you called your Manager instance featureManager, you can use this shortcut
+        if (PaidFeatures.isUnlocked("Email bound Feature")) {
+            addItem($.Rez.Strings.menu_label_email_feature, :emailFeature);
+        }
         addItem($.Rez.Strings.menu_label_4, :item4);
         addItem($.Rez.Strings.menu_label_5, :item5);
     }
