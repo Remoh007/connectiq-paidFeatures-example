@@ -136,7 +136,7 @@
             command palette to edit the included barrels.
         -->
         <iq:barrels>
-            <iq:depends name="PaidFeatures" version="0.0.1"/>
+            <iq:depends name="PaidFeatures" version="1.0.0"/>
         </iq:barrels>
     </iq:application>
 </iq:manifest>
