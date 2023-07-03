@@ -4,6 +4,7 @@
     <string id="menu_label_1">Item 1</string>
     <string id="menu_label_2">Item 2</string>
     <string id="menu_label_3">Hidden Item</string>
+    <string id="menu_remove_label_3">Remove Hidden Item</string>
     <string id="menu_label_device_feature">Device Feature</string>
     <string id="menu_label_email_feature">Email Feature</string>
     <string id="menu_label_4">Device Info</string>

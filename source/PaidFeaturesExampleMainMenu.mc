@@ -12,6 +12,7 @@ class PaidFeaturesExampleMainMenu extends WatchUi.Menu {
         // Check if the feature is unlocked
         if (Application.getApp().featureManager.isUnlocked("Hidden Feature")) {
             addItem($.Rez.Strings.menu_label_3, :item3);
+            addItem($.Rez.Strings.menu_remove_label_3, :remove_item3);
         }
         // If you called your Manager instance featureManager, you can use this shortcut
         if (PaidFeatures.isUnlocked("Device bound Feature")) {

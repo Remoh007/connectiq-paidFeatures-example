@@ -1,5 +1,5 @@
 # Do not hand edit this file. To make changes run the 
 # "Configure Monkey Barrels" command.
 
-PaidFeatures = ".\connectiq-paidFeatures-barrel-1.0.1.barrel"
+PaidFeatures = ".\connectiq-paidFeatures-barrel-1.0.2.barrel"
 base.barrelPath = $(base.barrelPath);$(PaidFeatures)

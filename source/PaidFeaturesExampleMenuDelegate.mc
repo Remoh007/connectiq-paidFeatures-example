@@ -32,6 +32,11 @@ class PaidFeaturesExampleMenuDelegate extends WatchUi.MenuInputDelegate {
             System.println("This feature is bound to a specific email");
         } else if (item == :deviceFeature) {
             System.println("This feature is bound to a specific device");
+        } else if (item == :remove_item3) {
+            System.println("Removing the hidden item");
+            var featureManager = Application.getApp().featureManager;
+            var result = featureManager.lockFeature("Hidden Feature");
+            System.println("feature was successfully locked: " + result);
         } 
     }
 
